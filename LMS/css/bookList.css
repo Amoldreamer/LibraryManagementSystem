@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    padding:0;
+    background-image:url('../Images/01.jpg');
+}
+
+#available{
+    background-color:green;
+    border:1px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:auto;
+    width:auto;
+    padding:10px;
+    border-radius: 8px;
+}
+
+#available form input[type="text"]{
+    display:inline-block;
+    float:right;
+    border-radius:8px;
+    height:30px;
+}
+
+#available form input[type="submit"]{
+    display:inline-block;
+    margin-left:100px;
+    margin-top:10px;
+    height:30px;
+    border-radius:8px;
+}
+
+header{
+    background-color:orange;
+    height:100px;
+}
+
+h3{
+    text-align:center;
+}
+
+#design{
+    background-color:green;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:150px;
+    width:450px;
+    padding:20px;
+    border-radius:8px;
+}

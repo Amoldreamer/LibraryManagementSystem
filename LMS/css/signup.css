@@ -1,0 +1,51 @@
+
+body{
+    margin:0;
+    padding:0;
+    background-image: url('../Images/library1.jpg');
+    background-size: cover;
+}
+div{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color:green;
+    width:300px;
+    height:485px;
+    transition:.8s;
+}
+#register{
+    text-align:center;
+}
+
+input[type=text]{
+    width:95%;
+    border-radius:4px;
+    outline: none;
+    padding:6px;
+    box-sizing:border-box;
+}
+input[type=password]{
+    width:95%;
+    border-radius:4px;
+    outline: none;
+    padding:6px;
+    box-sizing:border-box;
+}
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+input[type=password]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+button{
+    background-color:rgb(12,232,142);
+    width:95%;
+    border-radius:4px;
+    outline: none;
+    padding:6px;
+    box-sizing:border-box;
+}

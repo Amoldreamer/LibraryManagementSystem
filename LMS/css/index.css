@@ -1,0 +1,30 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url('../Images/02.jpg');
+    background-size: cover;
+}
+div{
+    border-radius:8px;
+    position: absolute;
+    background-color:green;
+    width:200px;
+    height:200px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+div a{
+    
+    text-decoration: none;
+    color:white;
+    border-radius:8px;
+}
+#wrapper div{
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}

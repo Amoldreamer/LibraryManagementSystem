@@ -1,0 +1,49 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url('../Images/01.jpg');
+    background-size:cover;
+    
+} 
+.login{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:-50px;
+    left: 35%;
+} 
+
+ .loginbox{
+    background-color:green;
+    width: 320px;
+    height: 420px;
+    color:white;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);  
+    opacity:1; 
+} 
+
+.loginbox div{
+    position:relative;
+    top: 100px;
+    left: 80px;
+} 
+
+.loginbox div label{
+    position:absolute;
+    left:50px;
+}
+
+.loginbox div input{
+    border-radius: 8px;
+    height: 20px;
+    border: none;
+    position: absolute;
+}
+
+.loginbox div input[type="submit"]:hover{
+    cursor:pointer;
+}
